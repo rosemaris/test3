@@ -9,6 +9,7 @@ export default class Dashboard extends React.Component<IDashboardProps, {}> {
   public render(): React.ReactElement<IDashboardProps> {
     return (
       <Container>
+        
         <Row>
           <Col>
             <h6>Entry Information</h6>
