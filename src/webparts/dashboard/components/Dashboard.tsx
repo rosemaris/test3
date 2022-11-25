@@ -9,7 +9,7 @@ export default class Dashboard extends React.Component<IDashboardProps, {}> {
   public render(): React.ReactElement<IDashboardProps> {
     return (
       <Container>
-        
+
         <Row>
           <Col>
             <h6>Entry Information</h6>
@@ -71,6 +71,7 @@ export default class Dashboard extends React.Component<IDashboardProps, {}> {
             {!!!this.state.Item.SubmittedEntryDate && <Form.Label>-</Form.Label>} */}
             <p />
           </Col>
+
         </Row>
         <Row>
           <Col><h6>Consent</h6></Col>
@@ -286,6 +287,11 @@ export default class Dashboard extends React.Component<IDashboardProps, {}> {
             <p />
             <hr />
             <p />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+          <h1>Foods</h1>
           </Col>
         </Row>
       </Container>
